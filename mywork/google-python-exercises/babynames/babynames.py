@@ -61,6 +61,12 @@ def extract_names(filename):
 
 
 def main():
+  """
+  Call using python babynames.py --summaryfile OUTPUT_FILE INPUT_FILE
+  to get output in a file instead of the terminal
+  Call using python babynames.py INPUT_FILE
+  to get input in the terminal instead of a file
+  """
   # This command-line parsing code is provided.
   # Make a list of command line arguments, omitting the [0] element
   # which is the script itself.
